@@ -1,0 +1,20 @@
+<mat-card ngClass="container">
+    <mat-card-title>Informações das empresas</mat-card-title>
+        <div >
+               
+                <p>
+                    {{detalhes.fantasy_name}}
+                </p>
+                <p>
+                    {{detalhes.place}}
+                </p>
+                <p>
+                    {{detalhes.location}}
+                </p>
+                <p>
+                    {{detalhes.machine}}
+                </p>
+                <p><img [src]="detalhes.image" alt=""></p>
+        </div>
+    <div routerLink="/" class="example-button-row"><button mat-button>Inicio</button></div>
+</mat-card>

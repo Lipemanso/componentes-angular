@@ -1,0 +1,26 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding:40px;
+    margin:30px;
+}
+
+#titulo{
+    margin:30px;
+}
+
+.box-container{
+    display: flex;
+    text-align: center;
+   
+}
+
+table{
+    
+    padding: 20px;
+    margin: 15px;
+    width: 100% ;
+ }
